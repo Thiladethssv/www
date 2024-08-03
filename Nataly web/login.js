@@ -12,7 +12,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (username === validUsername && password === validPassword) {
         
         // เปลี่ยนหน้าไปยังหน้า Home
-        window.location.href = 'Home.html';
+        window.location.href = 'html/sever/Home.html';
     } 
     
     else {
